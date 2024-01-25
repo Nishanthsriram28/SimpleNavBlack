@@ -1,0 +1,68 @@
+
+/* //Red Theme */
+ /*:root{
+    --first-color:red;
+    --second-color:rgb(255, 189, 199);
+    --text-color:rgb(255, 255, 255);
+} */
+
+
+
+/* //Black Theme */
+
+:root{
+    --first-color:rgb(0, 0, 0);
+    --second-color:rgb(78, 73, 74);
+    --text-color:rgb(255, 255, 255);
+}
+
+
+
+/* //Blue Theme   */
+
+/* :root{
+    --first-color:rgb(14, 2, 248);
+    --second-color:rgb(146, 170, 236);
+    --text-color:rgb(255, 255, 255);
+} */
+
+ul li{
+    font-size: 25px;
+    list-style: none;
+    display: inline;
+    padding: 23px;
+    color: var(--text-color);
+    font-family: poppins,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+nav{
+    background-color: var(--first-color);
+    padding: 30px;
+}
+
+body{
+    background-color: var(--second-color);
+}
+
+a{
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+@media (max-width:480px){
+    ul li{
+        display:flex;
+        flex-direction: column;
+        font-size: 35px;
+    }
+}
+
+@media (min-width:481px) and (max-width:690px) {
+    ul li{
+        font-size: 30px;
+        display: flex;
+        
+    }
+}
+
